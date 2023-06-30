@@ -1,8 +1,5 @@
 
-public class App {
-	
-	public static void main(String[] args) {
-		
+public static void main(String[] args)
 		/*
 		 VARIABLE
 		    Prénom est un entier
@@ -27,24 +24,25 @@ public class App {
 				
 				// declaration des variables
 				
-				Prénom est un entier
-			    Nom est un entier
-			    CodePostal est un entier
-			    AdresseMail est un In
-				Scanner sc;
-				sc = new Scanner(System.in);
+				String prénom; 
+			    String nom; 
+			    int dept;
+			    String mail1;
+				String mail2;
+			   
+				Scanner sc = new Scanner(System.in);
 				
 				//Scanner sc = new Scanner(System.in);
 				
-				System.out.println("Saisir votre Prénom ");
-				Prénom = sc.nextInt();
-				
-				System.out.println("Saisir votre Nom ");
+				System.out.println("Saisir votre Prénom :");
+				prénom = sc.nextline();
+				System.out.println("Saisir votre Nom :");
+				nom = sc.nextLine();
+				System.out.println("Saisir votre departement ");
+				dept = sc.println();
+				dept = sc.nextlnt()
+				System.out.println("Saisir votre Nom :");
 				Nom = sc.nextInt();
-				
-				System.out.println("Saisir votre Code Postal ");
-				CodePostal = sc.println();
-				
 				resultat1 = Prenom + Nom + CodePostal + @arfp.asso.fr ;
 				resultat2 = Prenom + CodePostal + Nom +  + @arfp.asso.fr ;
 				

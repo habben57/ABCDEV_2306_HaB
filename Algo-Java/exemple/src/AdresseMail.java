@@ -1,8 +1,6 @@
 import java.util.Scanner;
 
-public class AdresseMail {
-
-	public static void main(String[] args) {
+{
 		/*
 		 VARIABLE
 		    Prénom est un entier
@@ -26,15 +24,16 @@ public class AdresseMail {
 			public static void main(String[] args) {
 				// declaration des variables
 				
-				Prenom est un string
-			    String Nom 
-			    String CodePostal 
-				Scanner sc;
-				sc = new Scanner(System.in);
+				String Prenom; 
+			    String Nom; 
+			    int CodePostal; 
+				
+			    Scanner sc = new Scanner(System.in);
+				
 				//Scanner sc = new Scanner(System.in);
 				
 				System.out.println("Saisir votre Prénom ");
-				Prénom = sc.nextInt();
+				Prenom = sc.nextInt();
 				
 				System.out.println("Saisir votre Nom ");
 				Nom = sc.nextInt();
