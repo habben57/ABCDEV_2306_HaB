@@ -26,11 +26,12 @@ import java.util.Scanner;
 				
 				String Prenom; 
 			    String Nom; 
-			    int CodePostal; 
+			    int CodePostal;
+			    
 				
 			    Scanner sc = new Scanner(System.in);
 				
-				//Scanner sc = new Scanner(System.in);
+				
 				
 				System.out.println("Saisir votre Prénom ");
 				Prenom = sc.nextInt();
