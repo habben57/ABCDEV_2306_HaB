@@ -4,5 +4,5 @@
 /**
  * 
  */
-module exemple {
+module Taux {
 }
