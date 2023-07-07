@@ -51,7 +51,7 @@ public class App {
 						
 			else if (Nombre3 <= Nombre2 && Nombre2 <= Nombre1)
 			{
-				System.out.println( Nombre3 +" " +Nombre2+ " " +Nombre1);
+				System.out.println( Nombre3 +" <  " +Nombre2+ " <  " +Nombre1);
 			}
 				
 	
