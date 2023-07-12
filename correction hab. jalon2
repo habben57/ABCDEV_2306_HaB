@@ -1,0 +1,113 @@
+package ReductionEtudiantCoiffeur;
+
+import java.util.Scanner;
+
+public class App {
+
+	public static void main(String[] args) {
+// Si je suis etudiant, j'ai drois a 50% de reduction le mercredi et 25% le jeudi	
+/*
+ * Variable
+ * EtesVousEtudiant est une chaine de caractaire
+ * Etudiant est un bouleen
+ * SommeNousMercredi est une chaine de caractaire
+ * Mercredi est un bouleen
+ * SommeNousJeudi est une chaine de caractaire
+ * Jeudi est un bouleen
+ *  Début du programme
+	 	ecrire "Etes vous etudiant ?"
+	 	lire <-- Etudiant
+	 	ecrire "Sommes nous Mercredi ?"
+	 	lire <-- Mercredi
+	 	ecrire "Sommes nous Jeudi ?"
+	 	lire <-- Jeudi
+	Debut Si
+		Si EtesVousEtudiant est égal à oui
+	 	Alors Etudiant égal vrai
+	 	SiNon Etudiant égal faux
+	 Fin SI
+	 Debut Si
+	 	Si Sommes NousMercredi égal à oui
+	 	Alors Mercredi égal vrai
+	 	SiNon Mercredi égale faux
+	 Fin Si
+	 Debut Si
+	 	Si SommeNousJeudi égal à oui
+	 	Alors Jeudi égale Vrai
+	 	SiNon Jeudi égal Faux
+	 Fin Si
+	 Debut Si
+	 	Si Etudiant égal à non
+	 	Alors ecrivez " pas de réduction"
+	 	Si Etudiant et Mercredi egale vrai 
+	 	Alors écrivez "vous avez drois a 50%"
+	 	SiNon Etudiant et jeudi egale vrai
+	 	Alors écrivez "Vous avez drois à 25%
+	 Fin Si
+	 Fin du programme
+*/
+	 
+		// déclaration des variables
+		String EtesVousEtudiant;
+		boolean Etudiant;
+		String SommesNousMercredi;
+		boolean Mercredi;
+		String SommesNousJeudi;
+		boolean Jeudi;
+		
+		Scanner sc = new Scanner(System.in);
+
+		System . out . println ( "Etes vous étudant ? \nOui =O ou o  \tNon=N ou n " );
+		EtesVousEtudiant = sc . next();
+		if ( EtesVousEtudiant . equals ( "O" ) ||  EtesVousEtudiant . equals ( "o" ) )
+			{
+			Etudiant = true ;
+			}
+			else
+			{
+			Etudiant = false ;
+			}
+		
+		System . out . println( "Sommes nous mercredi ? \nOui=O ou o \tNon=N ou n " );
+		SommesNousMercredi = sc . next ();
+		 	if ( SommesNousMercredi . equals ( "O" ) ||  SommesNousMercredi . equals ( "o" ) )
+			{
+			Mercredi = true ;
+			}
+			else
+			{
+			Mercredi = false ;
+			}
+		System . out . println( "Sommes nous Jeudi ? \nOui=O ou o \tNon=N ou n " );
+		SommesNousJeudi = sc . next ();
+			if ( SommesNousJeudi . equals ( "O" ) || SommesNousJeudi . equals ( "o" ) )
+			{
+			Jeudi = true ;
+			}
+			else
+			{
+			Jeudi = false ;
+			}	
+				
+			if ( Etudiant == false )
+			{
+			System . out . println ( "Vous n'avez pas de reduction" );
+			}
+				
+			else if ( Etudiant == true && Mercredi == true && Jeudi == false  )
+			{
+			System . out . println ( "Vous avez drois à 50% de reduction" );
+			}
+			else if ( Etudiant == true && Mercredi == false && Jeudi == true  )
+				
+			{
+			System . out . println ( "Vous avez drois à 25% de reduction" );
+			}
+
+				
+				
+			sc . close ();	
+			
+			
+			}
+	}
