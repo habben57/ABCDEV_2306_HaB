@@ -1,0 +1,85 @@
+<mxfile host="Electron" modified="2023-07-11T14:14:05.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.1 Chrome/112.0.5615.204 Electron/24.6.1 Safari/537.36" etag="Qp6OVeoibpJd8y9vdxBS" version="21.6.1" type="device">
+  <diagram name="Page-1" id="gLv1QTcVVNHvt_LK3WIH">
+    <mxGraphModel dx="639" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mxsRELFgvRMszOBu1kK2-1" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="170" y="20" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-2" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="mxsRELFgvRMszOBu1kK2-1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mxsRELFgvRMszOBu1kK2-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185.10000000000002" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-3" value="Saisir Nombre" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="118.75" y="110" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mxsRELFgvRMszOBu1kK2-6" target="mxsRELFgvRMszOBu1kK2-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mxsRELFgvRMszOBu1kK2-6" target="mxsRELFgvRMszOBu1kK2-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-6" value="i allat de 2-1&lt;br&gt;à Nombre -1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="95.63" y="220" width="178.75" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mxsRELFgvRMszOBu1kK2-7" target="mxsRELFgvRMszOBu1kK2-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-7" value="Si Nombre%!=0" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-11" value="est_premier = vrai" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="311.25" y="370" width="147.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="400" as="sourcePoint" />
+            <mxPoint x="530" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-14" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="200" as="sourcePoint" />
+            <mxPoint x="190" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mxsRELFgvRMszOBu1kK2-15" target="mxsRELFgvRMszOBu1kK2-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-15" value="est_premier = vrai" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="93.38" y="370" width="181" height="108.6" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mxsRELFgvRMszOBu1kK2-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-18" value="Le Nombre est premier" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="108" y="510" width="154" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-20" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="168.88" y="680" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-24" value="Object" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="320" y="510" width="149" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mxsRELFgvRMszOBu1kK2-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="mxsRELFgvRMszOBu1kK2-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="540" as="sourcePoint" />
+            <mxPoint x="310" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

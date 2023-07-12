@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module Exercices_algo {
-}

@@ -20,27 +20,31 @@ public class App {
 		System.out.println ("Est il etudiant? \nOui= O ou o \tNon=N ou n");
 		EstIlEtudiant = sc . next();
 		 
-		
-		System.out.println ("Somme nous Mercredi? \nOui = O ou \tNon=N ou n");
+		System.out.println ("Somme nous Mercredi? \nOui = O ou o \tNon=N ou n");
 		SommeNousMercredi = sc . next();
 		
-		System.out.println ("Somme Nous Jeudi? \nOui = O ou t\Non=N ou n");
-		SommeNousJeudi = sc .next();
+		System.out.println ("Somme nous Jeudi? \nOui = O ou o \tNon=N ou n");
+		SommeNousJeudi = sc . next();
 		
-		if Etudian equal (o);
-		System.println
+		/*if (Etudiant == true %%  Mercredi == true; 
+		{
+			
+			System.out.println ("Vous avez drois à 50% de reduction");
+		}
+		else 
+		{
+			Mercredi = true;
+		}
+				
+		System.out.println("Vous avez drois à 25% de réduction");
+			*/
+		
+		 sc . close();
+	
+	}
+	
 		
 		
-		
-		
-		
-		
-	//	if EstIlEtudiant equal ("O") =
-		
-		
-		
-		
-		close sc;
 	}
 
-}
+
