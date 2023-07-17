@@ -95,7 +95,7 @@ public class App {
 					Jeudi = false ;
 				}	
 				
-			 	}
+			 	
 			}
 			if (Mercredi == true   )
 			{
@@ -104,7 +104,7 @@ public class App {
 			else if(Jeudi == true  )
 			{
 			System . out . println ( "Vous avez drois à 25% de reduction" );
-			}
+			
 			}
 		 	else
 			{
@@ -117,6 +117,6 @@ public class App {
 				
 			sc . close ();	
 			
-			
+			}
 			}
 	}

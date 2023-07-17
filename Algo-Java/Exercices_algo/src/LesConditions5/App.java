@@ -60,35 +60,56 @@ public class App {
 		int Heures;
 		int minute;
 		int seconde;
+		boolean HeureValide;
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Saisir les heure");
+		Heures = 0;
+		minute = 0;
+		seconde = 0;
+		HeureValide = false;
+		
+		while (HeureValide == false)
+		
+		{
+		System.out.println("Saisir les heures");
 		Heures = sc.nextInt();
 		
 		System.out.println("Saisir les minutes ");
 		minute = sc.nextInt();
 		
-		System.out.println("Saisir les seconde");
+		System.out.println("Saisir les secondes");
 		seconde = sc.nextInt();
 		seconde = seconde+1;
 		
-			if (seconde == 60)
+		
+		if (Heures > 23 || minute > 59 || seconde > 59)
 			{
-				seconde = 0;
-				minute = minute+1;
+			System.out.println("votre saisie est fausse");
+			}
+		if (Heures <= 23 && minute <= 59 && seconde <= 59)
+			{
+			HeureValide = true;
 			}
 		
+		}
+		
+			if (seconde == 60)
+				{
+				seconde = 0;
+				minute = minute+1;
+				}
+		
 			if (minute == 60)
-			{
+				{
 				minute = 0;
 				Heures = Heures + 1;
-			}
+				}
 			
 			if (Heures == 24)
-			{
+				{
 				Heures = 0;
-			}
+				}
 
 			System.out.println("Dans une secondes il sera "+Heures+"heure(s) "+minute+"minute(s) et "+seconde+"seconde(s)");
 		
