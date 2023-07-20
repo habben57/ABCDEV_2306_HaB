@@ -3,12 +3,14 @@ package exercice2_1;
 import java.util.Scanner;
 
 /*
- * Conditions
- * 	Age est un entier
- * Début Si
+ * -----Conditions----
+ * 
+ * variable
+ * 		Age est un entier
+ *Début programme
  * 		Ecrire "Saisir votre age"
  * 		Lire <-- Age
- * Début Si
+ *	Début Si
  * 		Si 
  * 			Age < 0
  * 		Alors
@@ -35,15 +37,15 @@ public class App {
 		
 		if (age < 0)
 		{
-			System.out.println(" Vous n'êtes pas encore né)");
+			System.out.println(" Vous n'êtes pas encore né ");
 		}
-		else if (age < 18)
-		{
-			System.out.println(" Vous êtes mineur");
-		}
+			else if (age < 18)
+			{
+			System.out.println(" Vous êtes mineur ");
+			}
 		else
 		{
-			System.out.println(" Vous êtes majeur");
+			System.out.println(" Vous êtes majeur ");
 		}
 		sc.close();
 	}
