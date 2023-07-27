@@ -87,12 +87,15 @@ public class App {
 			{
 			System.out.println("votre saisie est fausse");
 			}
+		
 		if (Heures <= 23 && minute <= 59 && seconde <= 59)
 			{
 			HeureValide = true;
 			}
 		
-		}
+		{
+			
+		
 		
 			if (seconde == 60)
 				{
@@ -110,11 +113,17 @@ public class App {
 				{
 				Heures = 0;
 				}
-
+			else
+			{
 			System.out.println("Dans une secondes il sera "+Heures+"heure(s) "+minute+"minute(s) et "+seconde+"seconde(s)");
-		
+			}
+			
+		}
+		}	
 		sc.close();
 	
-	}
+		
+	
 
+	}
 }

@@ -51,9 +51,9 @@ public class App {
 		nombre= sc.nextInt();
 		
 		System.out.println(" table de multiplication :");
-		for(i=1; i<=10; i++);
-		{
-			System.out.println (i +"X"+nombre+" = "+i);
+		for(i=0; i<=10; i++);
+		{ 
+			System.out.println (i + " X "+nombre +" = "  + i*nombre  );
 		
 		}
 		

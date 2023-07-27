@@ -31,15 +31,17 @@ fin programme
 //		
 		int nombre ;
 		int i ;
-	
-		Scanner sc = new Scanner(System.in);
+		
+		
+	Scanner sc = new Scanner(System.in);
 	
 
 		System.out.println("Saisir votre nombre");
 		nombre = sc.nextInt();
 		
+		
 		System.out.println("nombre suivant");
-		for(i=1; i<=5; i++)       //i=1 depart  i=<=10  nombre de fois   i++ (i plus 1 a chaque fois)
+		for(i=1; i<=10; i++)       //i=1 depart  i=<=10  nombre de fois   i++ (i plus 1 a chaque fois)
 	
 		{
 		nombre = nombre+1;
@@ -72,7 +74,7 @@ fin programme
 //			
 //		
 ////		
-//	sc.close ();
+	sc.close ();
 ////
 		
 	}

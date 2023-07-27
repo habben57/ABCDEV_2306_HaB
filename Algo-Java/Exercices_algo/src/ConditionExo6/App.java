@@ -46,35 +46,40 @@ Fin programme
 		
 		Age = 0;
 		genre = "M";
-		boolean M;
+		boolean M = true;
 		
 		
+
 		
-		genre ="M";
-		condition1 =   ("M") && Age>20;
-		condition2 =  (Age>18 && Age<35);
 		
 		
 		
 		
 		System.out.println("saisir votre genre (M) pour masculin ou (F) pour feminin : ");
 		genre = sc.next();
+		if(genre.equals("M")) {
+			M = true;
+		}else {
+			M = false;
+		}
+		
 		
 		
 		System.out.println("saisir votre Age : ");
 		Age = sc.nextInt();
-		
+		condition1 =  (M == true && Age>20);
+		condition2 =  (M == false && Age>18 && Age<35);
 		
 //	if ((genre.equals("M") || genre.equals("m")) && Age > 20 )
 //		{
 //			System.out.println(" Vous êtes impôsable ");
 //		}
 		
-		if (condition1 = "M"&& Age>20);
+		/*if (condition1 = M && Age>20);
 			{
 			condition1 =true;
-			}
-		if (condition1 = true || condition2)
+			}*/
+		if (condition1 || condition2)
 //		else if ((genre.equals("F") || genre.equals("f")) && (Age > 18 && Age < 35 ))
 		{
 			System.out.println(" Vous êtes impôsable ");

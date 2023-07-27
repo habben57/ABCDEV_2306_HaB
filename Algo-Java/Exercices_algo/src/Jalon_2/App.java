@@ -26,19 +26,19 @@ public class App {
 		System.out.println ("Somme nous Jeudi? \nOui = O ou o \tNon=N ou n");
 		SommeNousJeudi = sc . next();
 		
-		/*if (Etudiant == true %%  Mercredi == true; 
-		{
-			
-			System.out.println ("Vous avez drois à 50% de reduction");
-		}
-		else 
-		{
-			Mercredi = true;
-		}
-				
-		System.out.println("Vous avez drois à 25% de réduction");
-			*/
-		
+//		if (Etudiant == true %%  Mercredi == true; 
+//		{
+//			
+//			System.out.println ("Vous avez drois à 50% de reduction");
+//		}
+//		else 
+//		{
+//			Mercredi = true;
+//		}
+//				
+//		System.out.println("Vous avez drois à 25% de réduction");
+//			
+//		
 		 sc . close();
 	
 	}
