@@ -26,6 +26,7 @@ public class App {
 		calcul = addition(c,d);
 		
 		System.out.println(calcul);
+		
 		 
 	}
 }

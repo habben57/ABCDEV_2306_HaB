@@ -42,7 +42,7 @@ package objetBouteille;
 			else
 				{
 				return false;
-				}
+				} 
 		}
 		
 		public boolean ouvrir()
