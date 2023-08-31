@@ -30,8 +30,7 @@ public class App {
  * Ecrire " le nombre de positif est " +positif+" et le nombre de negatif est "+negatif )
  * 
  */
-	
-	
+		
 	
 	public static void main(String[] args) {
 	
@@ -40,7 +39,8 @@ public class App {
 		int i =0;
 		int negatif =0;
 		
-		Scanner sc = new Scanner(System.in);
+	Scanner sc = new Scanner(System.in);
+	
 		
 //		debut programme
 		System.out.println(" Saisir le nombre de chiffre que vous voulez stocker dans le tableau : ");
@@ -50,7 +50,7 @@ public class App {
 		int []tab3 = new int[ Nbr];
 		for( i = 0; i< Nbr; i++)
 		{
-			System.out.println("Saisur un nombre "+(i+1)+" :");
+			System.out.println(" Saisir un nombre " +(i+1)+" :");
 			tab3[i] = sc.nextInt();
 		
 			if (tab3[i] < 0)
@@ -64,9 +64,10 @@ public class App {
 		
 		}
 		
-		System.out.println(" "+negatif+" nombre(s) negatif et "+positif+ " nombre(s) positif");
+		System.out.println("  "+negatif+" nombre(s) negatif et "+positif+ " nombre(s) positif");
 	
-		sc.close();
+	sc.close();
+	
 	}	
 
 }

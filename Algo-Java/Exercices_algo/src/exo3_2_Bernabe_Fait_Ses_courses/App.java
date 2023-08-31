@@ -29,30 +29,32 @@ public class App {
 		
 	
 	int NbrMagasin =0;
-	Double somme ;
+	double somme;
 //	Double i;
 //	i = somme++;
-	
+		System.out.println(" somme de depart : ");
+		somme = sc.nextInt();
+		
 		
 		
 		if(somme >= 1)			
 			{
 			while (somme > 0)
 				{
-					if (somme -((somme / 2)+ 1) >= 0)
+					if (somme -(somme / 2+ 1) >= 0)
 					{ 
-						System.out.println( somme);
+						
 						somme -= (somme/ 2)+1;
 					}
 					else 
 					{
-						somme = (double) 0 ;	
+						somme = 0 ;	
 					}			
 					NbrMagasin ++;
 					}
 				
 			}
-		System.out.println("Bernabe est alle dans " +NbrMagasin+" magasins");
+		System.out.println(" Bernabe est alle dans " +NbrMagasin+" magasins");
 			 
 		sc . close();
 
