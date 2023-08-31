@@ -1,6 +1,6 @@
 package objetVille;
 
-public class Ville {
+public class Ville { 
 	
 	private String nomVille;
 	private String nomPays;
