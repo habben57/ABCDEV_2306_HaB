@@ -1,23 +1,49 @@
 package objetPorteGarage;
 
+import java.util.Scanner;
+
 public class PorteDeGarage {
 
 	public static void main(String[] args) {
-
-		PorteLeroyMerlin portedeGarage = new PorteLeroyMerlin("LeroyMerlin",true, false, 25, 100, 0); 
-//		PorteGarage BricotDepot = new PorteGarage("BricoDepot", 170, 90, 45, true, false);
+		
+		int degresOuverture;
+		int degresFermeture;
+		int difference;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		PorteLeroyMerlin porteGarage = new PorteLeroyMerlin("PorteLeroyMerlin" ,true, 0,false, 0, 180, 0); 
+		//PorteBricoDepot porteGarage  = new PorteBricoDepot("PorteBricoDepot" ,true, 0,false, 0, 100, 0);
+		int degresFermable = 0;
+		
+		boolean test1 = porteGarage.ouvrir();
+		boolean test2 = porteGarage.fermer();
+		boolean test3 = porteGarage.verouiller();
+		boolean test4 = porteGarage.deverouiller();
+		System.out.println(" Entrer le degre d'ouverture : ");
+		degresOuverture = sc.nextInt();
+		boolean test5 = porteGarage.degresOuverture(degresOuverture);
+		
+		System.out.println(" Entrer le degre de fermeture : ");
+		degresFermeture = sc.nextInt();
+		boolean test6 = porteGarage.degresFermeture(degresFermeture);
+		difference =  degresOuverture - degresFermeture;
+		System.out.println(" Porte ouverte de : "+difference);
+		//degresOuverture = sc.nextInt();
+		
+		
+		
+//		boolean test1 = BricoDepot.ouvrir();
+//		boolean test2 = portedeGarage.fermer();
+//		boolean test3 = portedeGarage.verouiller();
+//		boolean test4 = portedeGarage.deverouiller();
+//		boolean test5 = portedeGarage.degresOuverture(45);
+//		boolean test6 = portedeGarage.degresFermeture(30);System.out.println(" Entrer le degre d'ouverture : ");
+		
+//	
 	
-		boolean test1 = portedeGarage.ouvrir();
-		boolean test2 = portedeGarage.fermer();
-		boolean test3 = portedeGarage.verouiller();
-		boolean test4 = portedeGarage.deverouiller();
-		boolean test5 = portedeGarage.degresOuverture(45);
-	
-	
-	
-	
-	
-	
+	sc.close();
 	}
 
 }
