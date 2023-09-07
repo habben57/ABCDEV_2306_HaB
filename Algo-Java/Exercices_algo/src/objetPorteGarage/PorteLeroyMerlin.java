@@ -10,12 +10,10 @@ public class PorteLeroyMerlin {
 	private int degresMax;
 	private final int degresMin;
 	private int degresFermeture;
-		// constructeur
-		
-		
 		
 	
-		public PorteLeroyMerlin(String _marque, boolean _estOuverte, int _degresFermeture, boolean _estVerouiller, int _degresOuverture, int _degresMax, int _degresMin)
+		// constructeur
+	public PorteLeroyMerlin(String _marque, boolean _estOuverte, int _degresFermeture, boolean _estVerouiller, int _degresOuverture, int _degresMax, int _degresMin)
 		{
 			this.marque = _marque;
 			this.estOuverte = _estOuverte;
@@ -43,13 +41,12 @@ public class PorteLeroyMerlin {
 			if(this.estOuverte && !this.estVerouiller)
 				{
 				System.out.println("porte ouverte de "+ degresOuverture);
-
 				estOuverte = true;
 				return true;				
 				}
 			else
 				{				
-				System.out.println("porte fermer");
+				;
 				return false;
 				}
 		}
@@ -102,7 +99,7 @@ public class PorteLeroyMerlin {
 		public boolean degresOuverture(int degresOuvrable)
 		{ 
 			int poucentageOuverture = 0;
-			if(!this.estVerouiller && this.degresOuverture+degresOuvrable <= this.degresMax 
+			if(!this.estVerouiller && this.estOuverte && this.degresOuverture+degresOuvrable <= this.degresMax 
 					&& degresOuvrable > this.degresMin)
 			{
 				System.out.println("porte ouverte de : "+degresOuvrable +"°");
@@ -110,7 +107,11 @@ public class PorteLeroyMerlin {
 				degresOuverture = this.degresOuverture + degresOuvrable ;
 				return true;
 			}
-			return estOuverte;
+			else
+			{
+			System.out.println("Pas possible, la porte doit etre d abord ouverte ;-)");
+			return false;
+			}
 		}
 		
 		public boolean degresFermeture(int degresFermable)
@@ -118,7 +119,7 @@ public class PorteLeroyMerlin {
 	//	degresFermable = degresOuverture - degresFermable;
 		{	
 			int poucentageFermeture = 0;
-			if(!this.estVerouiller && this.degresFermeture + degresFermable >= this.degresMin
+			if(!this.estVerouiller && this.estOuverte && this.degresFermeture + degresFermable >= this.degresMin
 					&& degresFermable < this.degresMax)
 			{
 				if( degresOuverture< degresFermeture)
@@ -129,7 +130,11 @@ public class PorteLeroyMerlin {
 				
 				return true;
 			}
-		return fermer();
+			else
+			{
+				System.out.println(" La porte est deja fermée ;-)");
+				return false;
+			}
 		}
 	
 }

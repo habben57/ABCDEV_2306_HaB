@@ -21,15 +21,16 @@ public class PorteDeGarage {
 		boolean test2 = porteGarage.fermer();
 		boolean test3 = porteGarage.verouiller();
 		boolean test4 = porteGarage.deverouiller();
+		boolean test7 = porteGarage.ouvrir();
 		System.out.println(" Entrer le degre d'ouverture : ");
 		degresOuverture = sc.nextInt();
 		boolean test5 = porteGarage.degresOuverture(degresOuverture);
-		
 		System.out.println(" Entrer le degre de fermeture : ");
 		degresFermeture = sc.nextInt();
+		
 		boolean test6 = porteGarage.degresFermeture(degresFermeture);
 		difference =  degresOuverture - degresFermeture;
-		System.out.println(" Porte ouverte de : "+difference);
+		System.out.println(" Porte ouverte de : "+difference+ " degres");
 		//degresOuverture = sc.nextInt();
 		
 		
