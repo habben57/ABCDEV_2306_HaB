@@ -14,7 +14,6 @@ public class App {
 //			double nouveauSolde = 0;
 //			int achat;
 //			
-		Scanner	sc = new Scanner(System.in);
 //			
 //		Compte Habib = new Compte("Habib", true, 10, 10, 10);
 //		
@@ -39,8 +38,9 @@ public class App {
 		monCompte.afficher();
 		monCompte.retirer(0.0);
 		monCompte.afficher();
-		
-	sc.close();
+		monCompte.deposer(0.0);
+
+	
 	
 	}
 
