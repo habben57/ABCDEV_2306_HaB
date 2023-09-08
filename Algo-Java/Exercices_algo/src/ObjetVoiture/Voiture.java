@@ -14,7 +14,7 @@ public class Voiture {
 	}
 		
 	// Creation des setters
-		public void setMarque(String marque)
+		public void setMarque(String marque )
 		{
 			this.marque = marque;
 		}

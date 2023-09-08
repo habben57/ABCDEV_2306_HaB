@@ -31,7 +31,7 @@ package objetBouteille;
 		this.estOuverte = _estOuverte;
 		this.completer = _completer;	
 		}
-	
+		// Methodes
 		public boolean fermer()
 		{
 			if(!this.estOuverte)
