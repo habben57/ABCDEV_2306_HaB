@@ -55,8 +55,9 @@ public class Rectangle {
 	//------methode affichages--------------------
 		public void Affichage()
 		{
-				System.out.println(" Le perimetre du rectangle est de : "+2*(this.Longueur+this.largeur));
-				System.out.println(" La surface du rectangle est de :"+this.Longueur*this.largeur);
+				System.out.println("Le perimetre et l'aire d'un rectangle qui à pour Longueur "+this.Longueur+" cm est pour largeur "+this.largeur+ " cm.");
+				System.out.println(" Le perimetre du rectangle est de : "+2*(this.Longueur+this.largeur)+" cm.");
+				System.out.println(" La surface du rectangle est de :"+this.Longueur*this.largeur+ " cm².");
 		}
 		
 	
