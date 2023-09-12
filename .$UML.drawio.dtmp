@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-09-11T12:12:53.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="acE3h5a1ElYHnLgR6-gV" version="21.6.5" type="device">
+<mxfile host="Electron" modified="2023-09-11T12:13:13.405Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="33VeMaj0Z_kOFRYr3Di5" version="21.6.5" type="device">
   <diagram name="Page-1" id="oA725dngkJjNdPlK9sbK">
     <mxGraphModel dx="797" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -331,6 +331,9 @@
               <mxPoint x="1650" y="1440" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-14" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class robotozorus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;- nom : String &amp;lt;const&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- estActif : Boolean&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- estinactif : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- ilAvancer : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- ilReculer : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- vaDroite : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- vaGauche&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="2130" width="150" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
