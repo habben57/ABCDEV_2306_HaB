@@ -5,6 +5,6 @@ public class Robotozorus {
 		double avance;
 		double recul;
 		double droite;
-		double gouche;Robot
+		double gouche;
 	
 }

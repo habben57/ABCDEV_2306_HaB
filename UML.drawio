@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2023-09-11T12:12:53.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="acE3h5a1ElYHnLgR6-gV" version="21.6.5" type="device">
+<mxfile host="Electron" modified="2023-09-15T09:29:33.384Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.5 Chrome/114.0.5735.243 Electron/25.3.1 Safari/537.36" etag="tGZW3hQkK5bJuIJoffAN" version="21.6.5" type="device">
   <diagram name="Page-1" id="oA725dngkJjNdPlK9sbK">
-    <mxGraphModel dx="797" dy="402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1658" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,37 +284,37 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-1" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-1" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="1800" as="sourcePoint" />
-            <mxPoint x="1580" y="1800" as="targetPoint" />
+            <mxPoint x="830" y="1800" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class robotozorus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class robotozorus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="340" y="1844" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-3" value="Attribut" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-3" value="Attribut" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1890" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-4" value="Method" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-4" value="Method" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="1980" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-5" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-5" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="110" y="1992.86" as="sourcePoint" />
             <mxPoint x="160" y="1992.86" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class robotozorus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;- nom : String &amp;lt;const&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- estActif : Boolean&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- estinactif : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- ilAvancer : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- ilReculer : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- vaDroite : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- vaGauche&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Class robotozorus&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;- nom : String &amp;lt;const&amp;gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- estActif : Boolean&amp;nbsp;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- estinactif : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- ilAvancer : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- ilReculer : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- vaDroite : Boulean&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- vaGauche&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="160" y="1830" width="150" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
-          <mxGeometry x="20" y="2050" width="1540" height="8" as="geometry" />
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-9" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="1" vertex="1">
+          <mxGeometry x="20" y="2050" width="800" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-10" value="classe Main" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-10" value="classe Main" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1620" y="1298" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-11" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.441;exitY=-0.063;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="J0DRyRv4qzE-pr9AfCDo-10">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-11" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0.441;exitY=-0.063;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="J0DRyRv4qzE-pr9AfCDo-10" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1660" y="1280" as="sourcePoint" />
             <mxPoint x="1560" y="1250" as="targetPoint" />
@@ -323,7 +323,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="J0DRyRv4qzE-pr9AfCDo-13" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="J0DRyRv4qzE-pr9AfCDo-13" value="" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1660" y="1330" as="sourcePoint" />
             <mxPoint x="1610" y="1440" as="targetPoint" />
@@ -331,6 +331,15 @@
               <mxPoint x="1650" y="1440" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uDAdz71rK4iavoMf9jS2-1" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=1.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="J0DRyRv4qzE-pr9AfCDo-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="1950" as="sourcePoint" />
+            <mxPoint x="820" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uDAdz71rK4iavoMf9jS2-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;&lt;u&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Cercle&lt;/font&gt;&lt;/u&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ field: Type&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1604" width="270" height="266" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,35 +1,43 @@
 package objetArticle;
 
+//import java.util.Scanner;
+
+
+
 public class Article {
 	
-		String nom;
-		double referencement;
-		String designation;
-		double prixHT;
-		double prixTTC;
-		double tva = 18.6;
-		String chemise;
+		//private static final String Article001 = null;
+		public String nom;
+		public double referencement;
+		public String designation;
+		public double prixHT;
+		public double prixTTC;
+		public static double tauxTVA ;
 		
-//-------------constructeur avec parametre---------
+		
+//-------------constructeur sans parametre---------
 	public Article()
 	{
 		nom = "";
-		referencement = 001;
+		referencement = 000;
 		designation = "";
-		prixHT = prixHT;
-		prixTTC =prixTTC;
+		prixHT = 0;
+		prixTTC =0;
+		tauxTVA = 0;
 		
 	}
 		
-//-------------constructeur sans parametre---------
-	public Article (String _nom, double _referencement, String _designation, double _prixHT, double _prixTTC)
+//-------------constructeur avec parametre---------
+	public Article (String _nom, double _referencement, String _designation, double _prixHT, double _prixTTC, double _tauxTVA)
+
 	
 		{
 		this.nom = _nom;
 		this.referencement = _referencement;
 		this.designation = _designation;
 		this.prixHT = _prixHT;
-		this.prixTTC = _prixTTC;	
+		this.prixTTC = _prixTTC;
+		this.tauxTVA = _tauxTVA;
 		}
 //------------Setters---------------
 		public void setNom(String nom)
@@ -50,7 +58,11 @@ public class Article {
 		}
 		public void setPrixTTC(double prixHT)
 		{
-			this.prixTTC = (prixHT*tva)/100;
+			this.prixTTC = (prixHT*tauxTVA)/100;
+		}
+		public static void setTauxTVA(double tauxTVA)
+		{
+			tauxTVA = tauxTVA;
 		}
 		
 //-----------Getters-------------------
@@ -74,30 +86,34 @@ public class Article {
 		{
 			return prixTTC;
 		}
-		
-//----------Affichage----------------
-		public  void Affichage()
+		private double getTauxTVA()
 		{
-		
-			 
-			System.out.println(" Le prix HT de la chemise est de "+((this.prixHT*this.tva)/100+this.prixHT));
+			return tauxTVA;
 		}
 		
+//----------Affichage----------------
+		public  String Affichage()
+		{
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+//			
+//			System.out.println("votre taux de tva : "+this.tauxTVA);
+//			this.tauxTVA= sc.nextDouble();
+//			System.out.println(" Le prix hors taxe du(de la) "+nom+" : "+this.prixHT); 
+//			
+//			//System.out.println(" Le prix TTC du(de la)"+" : "+this.nom+" est de "+((this.prixHT)+(this.prixHT*this.tauxTVA/100)));
+//
+//			System.out.println(" Le prix TTC du(de la)"+" : "+this.nom+" est de "+(prixHT+(this.prixHT*this.tauxTVA/100)));
+
+			return "Reference : "+this.getreferencement()
+								+"\nDesignation : "+nom+" "+this.getdesignation()
+								+"\nPrix HT : "+this.getPrixHT()
+								+"\nTaux TVA : "+this.getTauxTVA()
+								+"\nPrix TTC : "+this.getPrixTTC();
+			
+			
+		}
+
 		
 		
 		
